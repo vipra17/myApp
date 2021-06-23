@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page {}
+export class Tab1Page {
+  percent: number = 50;
+  radius:number = 100;
+  fullTime: any =  '00:01:30';
+
+}
